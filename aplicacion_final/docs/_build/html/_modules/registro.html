@@ -1,0 +1,237 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <title>registro &mdash; documentación de InfoNutri - 3.5</title>
+  
+
+  
+
+  
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="../_static/css/pdj.css" type="text/css" />
+
+  
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../_static/css/pdj.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Índice"
+              href="../genindex.html"/>
+        <link rel="search" title="Búsqueda" href="../search.html"/>
+    <link rel="top" title="documentación de InfoNutri - 3.5" href="../index.html"/>
+        <link rel="up" title="Código de módulo" href="index.html"/>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta name="robots" content="follow, all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+  </head>
+
+  <body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="fa fa-home"> InfoNutri </a>
+        <div role="search">
+	  <form id ="rtd-search-form" class="wy-form"
+		action="../search.html" method="get">
+	    <input type="text" name="q" placeholder="Search docs" />
+	    <input type="hidden" name="check_keywords" value="yes" />
+	    <input type="hidden" name="area" value="default" />
+	  </form>
+	</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	
+          
+          
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../decoradores.html">decoradores module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../decoradores.html#decoradores.decorador_modelo"><code class="docutils literal notranslate"><span class="pre">decorador_modelo()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../gestion_base.html">Módulo gestion_base</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../gestion_base.html#gestion_base.BaseModel"><code class="docutils literal notranslate"><span class="pre">BaseModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gestion_base.html#gestion_base.Datos"><code class="docutils literal notranslate"><span class="pre">Datos</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../main.html">main module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../main.html#main.Controller"><code class="docutils literal notranslate"><span class="pre">Controller</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../modelo.html">Módulo modelo</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../modelo.html#modelo.Abmc"><code class="docutils literal notranslate"><span class="pre">Abmc</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../observador.html">Módulo observador</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../observador.html#observador.Observador"><code class="docutils literal notranslate"><span class="pre">Observador</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../observador.html#observador.ObservadorConcretoA"><code class="docutils literal notranslate"><span class="pre">ObservadorConcretoA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../observador.html#observador.Sujeto"><code class="docutils literal notranslate"><span class="pre">Sujeto</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../registro.html">Módulo registro</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../registro.html#registro.RegistroExcepciones"><code class="docutils literal notranslate"><span class="pre">RegistroExcepciones</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../verificacion_datos.html">Módulo verificacion_datos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../verificacion_datos.html#verificacion_datos.regex"><code class="docutils literal notranslate"><span class="pre">regex()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../verificacion_datos.html#verificacion_datos.variables_vacias"><code class="docutils literal notranslate"><span class="pre">variables_vacias()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../vista.html">Módulo vista</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../vista.html#vista.Vista"><code class="docutils literal notranslate"><span class="pre">Vista</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+
+      </div>
+      &nbsp;
+    </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Porão do Juca</a>
+      </nav>
+
+      <div class="wy-nav-content">
+	<div class="fundo-claro">
+	</div>
+	<div class="fundo-escuro">
+	</div>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+	    
+	    <!-- <ul class="wy-breadcrumbs"> -->
+	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+
+	    <!--   <li>Features</li> -->
+	    <!--   <li class="wy-breadcrumbs-aside"> -->
+
+	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
+
+	    <!--   </li> -->
+	    <!-- </ul> -->
+	    <!-- <hr/> -->
+	  </div>
+
+          <div role="main" class="">
+
+	    <div id="content" class="hfeed entry-container hentry">
+  <h1>Código fuente para registro</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Contiene una clase que se usa para registrar excepciones durante el uso de la aplicación.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="c1">#creacion de la clase &#39;RegistroExcepciones&#39;, que permite crear un archivo .txt donde se </span>
+<span class="c1">#registran las excepciones que se producen durante el uso de la aplicacion.</span>
+<span class="c1">#En el registro se indica informacion sobre el tipo de error, archivo en que se produce</span>
+<span class="c1">#y fecha y hora.</span>
+<div class="viewcode-block" id="RegistroExcepciones"><a class="viewcode-back" href="../registro.html#registro.RegistroExcepciones">[documentos]</a><span class="k">class</span> <span class="nc">RegistroExcepciones</span><span class="p">():</span>
+        <span class="n">ruta</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">log.txt&quot;</span> 
+        <span class="n">fecha</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>   
+<div class="viewcode-block" id="RegistroExcepciones.registrar_error"><a class="viewcode-back" href="../registro.html#registro.RegistroExcepciones.registrar_error">[documentos]</a>        <span class="k">def</span> <span class="nf">registrar_error</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">linea</span><span class="p">,</span><span class="n">archivo</span><span class="p">):</span> 
+                <span class="n">log</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ruta</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span> 
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Se ha dado un error:&#39;</span><span class="p">,</span>
+                        <span class="n">sys</span><span class="o">.</span><span class="n">exc_info</span><span class="p">(),</span>
+                        <span class="n">archivo</span><span class="p">,</span> 
+                        <span class="n">linea</span><span class="p">,</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">fecha</span><span class="p">,</span>
+                        <span class="n">file</span><span class="o">=</span><span class="n">log</span>
+                        <span class="p">)</span></div></div>
+</pre></div>
+
+	    </div>
+            <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2023, Martina Ruiz Ferrate.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="http://poraodojuca.net">Porão do Juca</a>.
+
+</footer>
+	</div>
+	</div>
+	  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'3.5',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+    <script type="text/javascript" src="../_static/documentation_options.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/underscore.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/_sphinx_javascript_frameworks_compat.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/doctools.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/sphinx_highlight.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/translations.js">
+
+    </script>
+
+  
+
+   <script type="text/javascript"
+           src="../_static/js/theme.js"></script>
+
+   <script type="text/javascript"
+           src="../_static/js/pdj.js"></script>
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+  </body>
+</html>

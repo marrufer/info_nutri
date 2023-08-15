@@ -1,0 +1,5 @@
+esta aplicacion se utiliza para guardar la informacion nutricional de 
+los productos alimenticios vendidos en supermercados y poder brindarsela 
+al cliente de una forma mas amigable que la tradicional letra chica del 
+envase, muchas veces dificil de encontrar y de leer para personas que 
+lo necesitan. 

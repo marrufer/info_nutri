@@ -1,0 +1,254 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <title>observador &mdash; documentación de InfoNutri - 3.5</title>
+  
+
+  
+
+  
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="../_static/css/pdj.css" type="text/css" />
+
+  
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../_static/css/pdj.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Índice"
+              href="../genindex.html"/>
+        <link rel="search" title="Búsqueda" href="../search.html"/>
+    <link rel="top" title="documentación de InfoNutri - 3.5" href="../index.html"/>
+        <link rel="up" title="Código de módulo" href="index.html"/>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta name="robots" content="follow, all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+  </head>
+
+  <body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="fa fa-home"> InfoNutri </a>
+        <div role="search">
+	  <form id ="rtd-search-form" class="wy-form"
+		action="../search.html" method="get">
+	    <input type="text" name="q" placeholder="Search docs" />
+	    <input type="hidden" name="check_keywords" value="yes" />
+	    <input type="hidden" name="area" value="default" />
+	  </form>
+	</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	
+          
+          
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../decoradores.html">decoradores module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../decoradores.html#decoradores.decorador_modelo"><code class="docutils literal notranslate"><span class="pre">decorador_modelo()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../gestion_base.html">Módulo gestion_base</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../gestion_base.html#gestion_base.BaseModel"><code class="docutils literal notranslate"><span class="pre">BaseModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gestion_base.html#gestion_base.Datos"><code class="docutils literal notranslate"><span class="pre">Datos</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../main.html">main module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../main.html#main.Controller"><code class="docutils literal notranslate"><span class="pre">Controller</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../modelo.html">Módulo modelo</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../modelo.html#modelo.Abmc"><code class="docutils literal notranslate"><span class="pre">Abmc</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../observador.html">Módulo observador</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../observador.html#observador.Observador"><code class="docutils literal notranslate"><span class="pre">Observador</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../observador.html#observador.ObservadorConcretoA"><code class="docutils literal notranslate"><span class="pre">ObservadorConcretoA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../observador.html#observador.Sujeto"><code class="docutils literal notranslate"><span class="pre">Sujeto</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../registro.html">Módulo registro</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../registro.html#registro.RegistroExcepciones"><code class="docutils literal notranslate"><span class="pre">RegistroExcepciones</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../verificacion_datos.html">Módulo verificacion_datos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../verificacion_datos.html#verificacion_datos.regex"><code class="docutils literal notranslate"><span class="pre">regex()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../verificacion_datos.html#verificacion_datos.variables_vacias"><code class="docutils literal notranslate"><span class="pre">variables_vacias()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../vista.html">Módulo vista</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../vista.html#vista.Vista"><code class="docutils literal notranslate"><span class="pre">Vista</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+
+      </div>
+      &nbsp;
+    </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Porão do Juca</a>
+      </nav>
+
+      <div class="wy-nav-content">
+	<div class="fundo-claro">
+	</div>
+	<div class="fundo-escuro">
+	</div>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+	    
+	    <!-- <ul class="wy-breadcrumbs"> -->
+	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+
+	    <!--   <li>Features</li> -->
+	    <!--   <li class="wy-breadcrumbs-aside"> -->
+
+	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
+
+	    <!--   </li> -->
+	    <!-- </ul> -->
+	    <!-- <hr/> -->
+	  </div>
+
+          <div role="main" class="">
+
+	    <div id="content" class="hfeed entry-container hentry">
+  <h1>Código fuente para observador</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+
+
+<div class="viewcode-block" id="Sujeto"><a class="viewcode-back" href="../observador.html#observador.Sujeto">[documentos]</a><span class="k">class</span> <span class="nc">Sujeto</span><span class="p">():</span>
+    <span class="n">observadores</span><span class="o">=</span><span class="p">[]</span>
+<div class="viewcode-block" id="Sujeto.agregar"><a class="viewcode-back" href="../observador.html#observador.Sujeto.agregar">[documentos]</a>    <span class="k">def</span> <span class="nf">agregar</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">obj</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">observadores</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span></div>
+<div class="viewcode-block" id="Sujeto.quitar"><a class="viewcode-back" href="../observador.html#observador.Sujeto.quitar">[documentos]</a>    <span class="k">def</span> <span class="nf">quitar</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">obj</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">observadores</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span></div>
+<div class="viewcode-block" id="Sujeto.notificar"><a class="viewcode-back" href="../observador.html#observador.Sujeto.notificar">[documentos]</a>    <span class="k">def</span> <span class="nf">notificar</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">observador</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">observadores</span><span class="p">:</span>
+            <span class="n">observador</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">args</span><span class="p">)</span></div></div>
+
+<div class="viewcode-block" id="Observador"><a class="viewcode-back" href="../observador.html#observador.Observador">[documentos]</a><span class="k">class</span> <span class="nc">Observador</span><span class="p">():</span>
+<div class="viewcode-block" id="Observador.update"><a class="viewcode-back" href="../observador.html#observador.Observador.update">[documentos]</a>    <span class="k">def</span> <span class="nf">update</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span><span class="s2">&quot;Delegación de actualización&quot;</span><span class="p">)</span></div></div>
+    
+<div class="viewcode-block" id="ObservadorConcretoA"><a class="viewcode-back" href="../observador.html#observador.ObservadorConcretoA">[documentos]</a><span class="k">class</span> <span class="nc">ObservadorConcretoA</span><span class="p">(</span><span class="n">Observador</span><span class="p">,</span><span class="n">Sujeto</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">obj</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">observador_a</span> <span class="o">=</span> <span class="n">obj</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">observador_a</span><span class="o">.</span><span class="n">agregar</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+<div class="viewcode-block" id="ObservadorConcretoA.update"><a class="viewcode-back" href="../observador.html#observador.ObservadorConcretoA.update">[documentos]</a>    <span class="k">def</span> <span class="nf">update</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Actualización dentro de ObservadorConcretoA&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Función: &quot;</span><span class="p">,</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span><span class="s2">&quot; Parámetros: &quot;</span><span class="p">,</span> <span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">:])</span>
+        <span class="n">fecha</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+        <span class="n">ruta</span><span class="o">=</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span><span class="o">+</span> <span class="s2">&quot;</span><span class="se">\\</span><span class="s2">reg.txt&quot;</span><span class="p">)</span>
+        <span class="n">reg</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="n">ruta</span> <span class="p">,</span><span class="s2">&quot;a&quot;</span><span class="p">,</span><span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Actualizacion desde ObservadorConcretoA. Se ha ingresado un nuevo producto. &quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;Nombre:&quot;</span><span class="p">,</span>
+                    <span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span>
+                    <span class="s2">&quot;Informacion general:&quot;</span><span class="p">,</span>
+                    <span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span>
+                    <span class="s2">&quot;Sodio:&quot;</span><span class="p">,</span>
+                    <span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">3</span><span class="p">],</span>
+                    <span class="n">fecha</span><span class="p">,</span>
+                    <span class="n">file</span><span class="o">=</span><span class="n">reg</span>
+                    <span class="p">)</span></div></div>
+</pre></div>
+
+	    </div>
+            <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2023, Martina Ruiz Ferrate.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="http://poraodojuca.net">Porão do Juca</a>.
+
+</footer>
+	</div>
+	</div>
+	  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'3.5',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+    <script type="text/javascript" src="../_static/documentation_options.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/underscore.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/_sphinx_javascript_frameworks_compat.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/doctools.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/sphinx_highlight.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/translations.js">
+
+    </script>
+
+  
+
+   <script type="text/javascript"
+           src="../_static/js/theme.js"></script>
+
+   <script type="text/javascript"
+           src="../_static/js/pdj.js"></script>
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+  </body>
+</html>

@@ -1,0 +1,319 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <title>Bienvenido a InfoNutri &mdash; documentación de InfoNutri - 3.5</title>
+  
+
+  
+
+  
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="_static/css/pdj.css" type="text/css" />
+
+  
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  
+    <link rel="stylesheet" href="_static/css/pdj.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Índice"
+              href="genindex.html"/>
+        <link rel="search" title="Búsqueda" href="search.html"/>
+    <link rel="top" title="documentación de InfoNutri - 3.5" href="#"/>
+        <link rel="next" title="Módulo decoradores" href="decoradores.html"/>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta name="robots" content="follow, all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+  </head>
+
+  <body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="#" class="fa fa-home"> InfoNutri </a>
+        <div role="search">
+	  <form id ="rtd-search-form" class="wy-form"
+		action="search.html" method="get">
+	    <input type="text" name="q" placeholder="Search docs" />
+	    <input type="hidden" name="check_keywords" value="yes" />
+	    <input type="hidden" name="area" value="default" />
+	  </form>
+	</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	
+          
+          
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="decoradores.html">Módulo decoradores</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="decoradores.html#decoradores.decorador_modelo"><code class="docutils literal notranslate"><span class="pre">decorador_modelo()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gestion_base.html">Módulo gestion_base</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gestion_base.html#gestion_base.BaseModel"><code class="docutils literal notranslate"><span class="pre">BaseModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestion_base.html#gestion_base.Datos"><code class="docutils literal notranslate"><span class="pre">Datos</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="main.html">Módulo main</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="main.html#main.Controller"><code class="docutils literal notranslate"><span class="pre">Controller</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modelo.html">Módulo modelo</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modelo.html#modelo.Abmc"><code class="docutils literal notranslate"><span class="pre">Abmc</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="observador.html">Módulo observador</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="observador.html#observador.Observador"><code class="docutils literal notranslate"><span class="pre">Observador</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="observador.html#observador.ObservadorConcretoA"><code class="docutils literal notranslate"><span class="pre">ObservadorConcretoA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="observador.html#observador.Sujeto"><code class="docutils literal notranslate"><span class="pre">Sujeto</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="registro.html">Módulo registro</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="registro.html#registro.RegistroExcepciones"><code class="docutils literal notranslate"><span class="pre">RegistroExcepciones</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="verificacion_datos.html">Módulo verificacion_datos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="verificacion_datos.html#verificacion_datos.regex"><code class="docutils literal notranslate"><span class="pre">regex()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="verificacion_datos.html#verificacion_datos.variables_vacias"><code class="docutils literal notranslate"><span class="pre">variables_vacias()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vista.html">Módulo vista</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="vista.html#vista.Vista"><code class="docutils literal notranslate"><span class="pre">Vista</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+
+      </div>
+      &nbsp;
+    </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Porão do Juca</a>
+      </nav>
+
+      <div class="wy-nav-content">
+	<div class="fundo-claro">
+	</div>
+	<div class="fundo-escuro">
+	</div>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+	    
+	    <!-- <ul class="wy-breadcrumbs"> -->
+	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+
+	    <!--   <li>Features</li> -->
+	    <!--   <li class="wy-breadcrumbs-aside"> -->
+
+	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
+
+	    <!--   </li> -->
+	    <!-- </ul> -->
+	    <!-- <hr/> -->
+	  </div>
+
+          <div role="main" class="">
+
+	    <div id="content" class="hfeed entry-container hentry">
+  <section id="bienvenido-a-infonutri">
+<h1>Bienvenido a InfoNutri<a class="headerlink" href="#bienvenido-a-infonutri" title="Enlace permanente a este encabezado">¶</a></h1>
+<p>Un programa que guarda cierta información nutricional de los productos alimenticios
+vendidos en un supermercado. Para que los consumidores que no pueden consumir o que
+necesitan ciertos ingredientes puedan acceder a esta información más fácilmente, ya que a veces es
+difícil encontrarla en los envases a simple vista, sobre todo para personas de edad avanzada o con una
+discapacidad/disminución visual.</p>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="decoradores.html">Módulo decoradores</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="decoradores.html#decoradores.decorador_modelo"><code class="docutils literal notranslate"><span class="pre">decorador_modelo()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gestion_base.html">Módulo gestion_base</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gestion_base.html#gestion_base.BaseModel"><code class="docutils literal notranslate"><span class="pre">BaseModel</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gestion_base.html#gestion_base.BaseModel.DoesNotExist"><code class="docutils literal notranslate"><span class="pre">BaseModel.DoesNotExist</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestion_base.html#gestion_base.BaseModel.id"><code class="docutils literal notranslate"><span class="pre">BaseModel.id</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gestion_base.html#gestion_base.Datos"><code class="docutils literal notranslate"><span class="pre">Datos</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gestion_base.html#gestion_base.Datos.DoesNotExist"><code class="docutils literal notranslate"><span class="pre">Datos.DoesNotExist</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestion_base.html#gestion_base.Datos.informacion_general"><code class="docutils literal notranslate"><span class="pre">Datos.informacion_general</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestion_base.html#gestion_base.Datos.mi_id"><code class="docutils literal notranslate"><span class="pre">Datos.mi_id</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestion_base.html#gestion_base.Datos.nombre"><code class="docutils literal notranslate"><span class="pre">Datos.nombre</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestion_base.html#gestion_base.Datos.sodio"><code class="docutils literal notranslate"><span class="pre">Datos.sodio</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="main.html">Módulo main</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="main.html#main.Controller"><code class="docutils literal notranslate"><span class="pre">Controller</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modelo.html">Módulo modelo</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modelo.html#modelo.Abmc"><code class="docutils literal notranslate"><span class="pre">Abmc</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modelo.html#modelo.Abmc.alta"><code class="docutils literal notranslate"><span class="pre">Abmc.alta()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modelo.html#modelo.Abmc.baja"><code class="docutils literal notranslate"><span class="pre">Abmc.baja()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modelo.html#modelo.Abmc.consulta"><code class="docutils literal notranslate"><span class="pre">Abmc.consulta()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modelo.html#modelo.Abmc.modificar"><code class="docutils literal notranslate"><span class="pre">Abmc.modificar()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="observador.html">Módulo observador</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="observador.html#observador.Observador"><code class="docutils literal notranslate"><span class="pre">Observador</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="observador.html#observador.Observador.update"><code class="docutils literal notranslate"><span class="pre">Observador.update()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="observador.html#observador.ObservadorConcretoA"><code class="docutils literal notranslate"><span class="pre">ObservadorConcretoA</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="observador.html#observador.ObservadorConcretoA.update"><code class="docutils literal notranslate"><span class="pre">ObservadorConcretoA.update()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="observador.html#observador.Sujeto"><code class="docutils literal notranslate"><span class="pre">Sujeto</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="observador.html#observador.Sujeto.agregar"><code class="docutils literal notranslate"><span class="pre">Sujeto.agregar()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="observador.html#observador.Sujeto.notificar"><code class="docutils literal notranslate"><span class="pre">Sujeto.notificar()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="observador.html#observador.Sujeto.observadores"><code class="docutils literal notranslate"><span class="pre">Sujeto.observadores</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="observador.html#observador.Sujeto.quitar"><code class="docutils literal notranslate"><span class="pre">Sujeto.quitar()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="registro.html">Módulo registro</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="registro.html#registro.RegistroExcepciones"><code class="docutils literal notranslate"><span class="pre">RegistroExcepciones</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="registro.html#registro.RegistroExcepciones.fecha"><code class="docutils literal notranslate"><span class="pre">RegistroExcepciones.fecha</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="registro.html#registro.RegistroExcepciones.registrar_error"><code class="docutils literal notranslate"><span class="pre">RegistroExcepciones.registrar_error()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="registro.html#registro.RegistroExcepciones.ruta"><code class="docutils literal notranslate"><span class="pre">RegistroExcepciones.ruta</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="verificacion_datos.html">Módulo verificacion_datos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="verificacion_datos.html#verificacion_datos.regex"><code class="docutils literal notranslate"><span class="pre">regex()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="verificacion_datos.html#verificacion_datos.variables_vacias"><code class="docutils literal notranslate"><span class="pre">variables_vacias()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vista.html">Módulo vista</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="vista.html#vista.Vista"><code class="docutils literal notranslate"><span class="pre">Vista</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vista.html#vista.Vista.aux_alta"><code class="docutils literal notranslate"><span class="pre">Vista.aux_alta()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="vista.html#vista.Vista.aux_baja"><code class="docutils literal notranslate"><span class="pre">Vista.aux_baja()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="vista.html#vista.Vista.aux_consulta"><code class="docutils literal notranslate"><span class="pre">Vista.aux_consulta()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="vista.html#vista.Vista.aux_modificar"><code class="docutils literal notranslate"><span class="pre">Vista.aux_modificar()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="vista.html#vista.Vista.boton_modificar"><code class="docutils literal notranslate"><span class="pre">Vista.boton_modificar()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="indices-y-tablas">
+<h1>Indices y tablas<a class="headerlink" href="#indices-y-tablas" title="Enlace permanente a este encabezado">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Índice</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Índice de Módulos</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Página de Búsqueda</span></a></p></li>
+</ul>
+</section>
+
+
+	    </div>
+            <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="decoradores.html" class="btn btn-neutral float-right" title="Módulo decoradores">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2023, Martina Ruiz Ferrate.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="http://poraodojuca.net">Porão do Juca</a>.
+
+</footer>
+	</div>
+	</div>
+	  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'3.5',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+    <script type="text/javascript" src="_static/documentation_options.js">
+
+    </script>
+    <script type="text/javascript" src="_static/jquery.js">
+
+    </script>
+    <script type="text/javascript" src="_static/underscore.js">
+
+    </script>
+    <script type="text/javascript" src="_static/_sphinx_javascript_frameworks_compat.js">
+
+    </script>
+    <script type="text/javascript" src="_static/doctools.js">
+
+    </script>
+    <script type="text/javascript" src="_static/sphinx_highlight.js">
+
+    </script>
+    <script type="text/javascript" src="_static/translations.js">
+
+    </script>
+
+  
+
+   <script type="text/javascript"
+           src="_static/js/theme.js"></script>
+
+   <script type="text/javascript"
+           src="_static/js/pdj.js"></script>
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+  </body>
+</html>
